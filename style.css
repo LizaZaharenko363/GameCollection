@@ -58,32 +58,56 @@ button:hover{
     vertical-align: middle;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
     .content{
         max-width: 1200px;
     }
+	#heading{
+		font-size: 30px;
+	}
+	#under_heading{
+		font-size: 20px;
+	}
+	button{
+		margin: 30px;
+		font-size: 1.5em;
+	}
 }
 @media screen and (max-width: 992px) {
     .content{
         max-width: 990px;
     } 
+
 }
 @media screen and (max-width: 810px) {
     .content{
         max-width: 810px;
     }
+	#under_heading{
+		margin-top: 0px;
+	}
+	#heading{
+		font-size: 27px;
+	}
+	button{
+		width:80%;
+	}
 }    
 @media screen and (max-width: 690px) {
     .content{
         max-width: none;
     }
-    #words{
+    #game{
         font-size: 60px;
     }
     #heading{
         font-size: 20px;
     }
-    label{
-        font-size: 15px;
-    }
+	#under_heading{
+		font-size: 14px;
+	}
+	button{
+		width: 100%;
+		margin: 10px;
+	}
 }
